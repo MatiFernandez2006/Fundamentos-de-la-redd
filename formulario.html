@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Registration From</title>
+</head>
+
+<body>
+    <h1>Registration From</h1>
+    <div>
+        <label>First Name:</label>
+        <input type="text">
+    </div>
+    <br>
+
+    <div>
+        <label>Password:</label>
+        <input type="password">
+    </div>
+    <br>
+
+    <div>
+        <label>Confirm Password:</label>
+        <input type="password">
+    </div>
+    <br>
+    <div>
+        <label>Date:</label>
+        <input type="Date">
+    </div>
+    <br>
+    <div>
+        <label>Gender Identy:</label>
+
+    </div>
+    <br>
+    <div>
+        <input type="radio" name="font" value="normal" id="normal">
+        <label for="normal">Male</label>
+        <input type="radio" name="font" value="normal" id="normal">
+        <label for="normal">Female</label>
+        <input type="radio" name="font" value="normal" id="normal">
+        <label for="normal">Non Binary </label>
+        <input type="radio" name="font" value="normal" id="normal">
+        <label for="normal">I prefer not to answer</label>
+
+    </div>
+    <br>
+    <div>
+        <label>A short description about myself</label>
+        <input type="text" name="A short description about myself" cols="20" rows="3"></input>
+
+    </div>
+
+    <form action="/process" method="post">
+        <br>
+
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" placeholder="Your email...">
+        </div>
+        <div>
+            <input type="checkbox" name="offers" id="offers" checked>
+            <label for="offers">Me gustaría
+                recibir ofertas por correo!</label>
+        </div>
+        <input type="submit" value="Sign Up!">
+        <br>
+
+        <div>
+            <input type="submit" value="Create Account">
+
+        </div>
+
+
+    </form>
+</body>
+
+</html>
